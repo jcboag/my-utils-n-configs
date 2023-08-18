@@ -1,0 +1,55 @@
+# SUFFIX ALIASES
+
+alias -s {hs,rs,yml,yaml,py,go,cg,txt}=vim
+alias -s {pdf}=zathura
+alias -s {md,MD,less}=less
+
+# ALIASES
+alias sai='sudo apt install'
+alias sau='sudo apt update'
+alias saug='sudo apt upgrade -y'
+alias aptlist='apt list | grep'
+alias aptsearch='apt-cache search'
+
+alias c='cd'
+alias ls='exa'
+alias l=ls
+alias sudo='sudo '
+alias s='sudo '
+alias x='exit'
+alias gr='egrep --color'
+alias history='fc -E -l 0'
+alias h='fc -E -l 0 | grep'
+alias t='todo'
+alias mk='mkdir'
+alias cat='bat --paging=never'
+alias f='fd'
+alias sc='sc-im'
+
+alias e='$EDITOR'
+alias se='sudo e'
+alias ev='e $VIM/init.vim'
+alias evp='e $VIM/plugins.vimrc'
+alias el="e -c \"normal '0\"" # last edited file
+alias ez='e $ZDOTDIR/.zshrc'
+alias eza='e $ZDOTDIR/.zaliases'
+alias ezp='e $ZDOTDIR/.zplugins'
+alias etm='e $HOME/.tmux.conf'
+alias eqt='e $XDG_CONFIG_HOME/qutebrowser/config.py'
+alias esw='e $HOME/.dotfiles/sway/.config/sway/config'
+# alias et='e $XDG_CONFIG_HOME/alacritty/alacritty.yml'
+alias ei3='e $XDG_CONFIG_HOME/i3/config' 
+alias ek='e $XDG_CONFIG_HOME/kitty/kitty.conf'
+alias eaw='e $XDG_CONFIG_HOME/awesome/rc.lua'
+alias sz='source $ZDOTDIR/.zshrc'
+
+alias cp='/usr/local/bin/cpg -g'
+alias mv='/usr/local/bin/mvg -g'
+alias ip='ip --color=auto'
+alias grep='grep --color=auto'
+alias free='free -h --si'
+alias diff='diff --color=auto'
+
+alias imv='imv-wayland'
+
+alias dirsizes='fdfind --type d -d 1 -x du -hs {} | sort -h'
