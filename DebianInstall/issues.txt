@@ -1,0 +1,15 @@
+ISSUE ... [ <COMMAND> ] [ Instructions ] 
+
+
+ISSUE						                    POSSIBLE FIX
+
+Bluetooth headphones not connecting ........	<bluetoothctl power on>	
+						                        install 'pulseaudio-module-bluetooth'
+
+X not working			            ........ 	install 'firmware-amd-graphics'
+
+KDEConnect not working              ........    Install 'qdbus-qt5'
+
+
+
+

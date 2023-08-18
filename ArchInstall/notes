@@ -1,0 +1,3 @@
+need xorg-xinit for startx
+"Invalid or corrupted type message", run pacman -S archlinux-keyring
+nvim clipboard, need xclip

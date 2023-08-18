@@ -1,0 +1,12 @@
+#! /usr/bin/python3
+# quick script to get pixel density to decide on a new monitor
+
+MONITOR_SIZES = [21,23,24,27,32]
+MONITOR_RES   = [(1920,1080),(2560,1440),(3840,2160)]
+
+def ppi(resx,resy,diag):
+    return ((resx**2 + resy**2)/diag**2)**.5
+
+for size in MONITOR_SIZES:
+    for res in MONITOR_RES:
+        print("{}-inch@{}p: {:.0f} PPI".format(size,res[1],ppi(res[0],res[1],size)))
