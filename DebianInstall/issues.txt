@@ -9,7 +9,3 @@ Bluetooth headphones not connecting ........	<bluetoothctl power on>
 X not working			            ........ 	install 'firmware-amd-graphics'
 
 KDEConnect not working              ........    Install 'qdbus-qt5'
-
-
-
-
